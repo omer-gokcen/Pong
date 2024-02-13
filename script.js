@@ -107,7 +107,7 @@ function checkCollision() {
   }
 }
 
-setInterval(update, 1000 / FPS);
+setInterval(update, 900 / FPS);
 
 function update() {
   if (!isOver) {
